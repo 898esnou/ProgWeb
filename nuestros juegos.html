@@ -45,7 +45,7 @@
     </nav>
 
     
-    <!-- Tarjetas de productos -->
+
 <div class="container my-5">
     <h2 id="productos-titulo" class="text-center mb-4">Nuestros Productos</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4" id="items">
@@ -86,7 +86,7 @@
     </div>
   </div>
   
-  <!-- Contenedor del carrito de compras -->
+
   <div class="container my-5" id="cart-container" style="display: none;">
     <div class="card">
       <div class="card-header">
@@ -94,7 +94,7 @@
         <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="card-body" id="cart-content">
-        <!-- El contenido del carrito se mostrará aquí -->
+
       </div>
       <div class="card-footer">
         <button id="realizarPedidoBtn" class="btn btn-primary float-end">Realizar Pedido</button>
@@ -104,7 +104,7 @@
   </div>
 
   
- <!-- Footer -->
+
  <footer class="bg-dark text-light py-3">
     <div class="container">
       <div class="row">
@@ -123,7 +123,6 @@
     const orderForm = document.getElementById('orderForm');
 
     realizarPedidoBtn.addEventListener('click', () => {
-      // Desplazamiento suave hacia abajo de la página
       orderForm.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });

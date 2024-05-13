@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #000000;
-    background-image: url('https://hardzone.es/app/uploads-hardzone.es/2018/11/videojuegos-pc.jpg'); /* Reemplaza 'fondo.jpg' con la ruta de tu imagen de fondo */
+    background-image: url('https://hardzone.es/app/uploads-hardzone.es/2018/11/videojuegos-pc.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,26 +40,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #productos-titulo {
-    border: 2px solid white; /* Agrega un borde blanco alrededor de "Nuestros Productos" */
-    padding: 10px; /* Agrega un espacio alrededor del texto */
-    background-color: white; /* Establece el color de fondo en blanco */
-    color: black; /* Establece el color del texto en negro */
+    border: 2px solid white; 
+    padding: 10px; 
+    background-color: white; 
+    color: black; 
 }
 
 .container.my-5.border.p-4 {
-    border: 2px solid white; /* Agrega un borde blanco alrededor del formulario */
-    background-color: white; /* Establece el color de fondo en blanco */
+    border: 2px solid white; 
+    background-color: white; 
 }
 
 .footer {
-    position: fixed; /* Fija el footer */
+    position: fixed; 
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #343a40; /* Cambia el color de fondo del footer */
-    color: white; /* Cambia el color del texto del footer a blanco */
-    text-align: center; /* Centra el contenido del footer */
-    padding: 10px 0; /* Añade un espacio alrededor del contenido del footer */
+    background-color: #343a40; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
     
 }
 
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(0,0,0,0.5);
   }
   
-  /* Estilo para el contenido de la ventana emergente */
+
   .ventana-contenido {
     background-color: #fefefe;
     margin: 15% auto;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 60%;
   }
   
-  /* Estilo para el botón de cerrar */
+
   .cerrar {
     color: #aaa;
     float: right;
